@@ -17,5 +17,5 @@ runs:
         script: |  
           from random import seed
           from random import randint
-          version = f"{randint(0, 10)}.{randint(0, 10)}.{randint(0, 10)}"
+          version = f"release-{randint(0, 10)}.{randint(0, 10)}.{randint(0, 10)}"
           set_output('version', version)
